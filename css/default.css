@@ -1,0 +1,99 @@
+*
+{
+    font-family: 'Athiti', sans-serif;
+}
+
+.thumbnail{
+   
+        max-width: 100%;
+        height: auto;
+ 
+}
+
+.bg-light, .jumbotron
+{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.overlay 
+{
+    position: relative;
+}
+
+.centered 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rating-static 
+{
+    width: 60px;
+    height: 16px;
+    display: block;
+    background: url("http://www.itsalif.info/blogfiles/rating/star-rating.png") 0 0 no-repeat;  
+}
+
+.rating-50 { background-position: 0 0; }
+.rating-40 { background-position: -12px 0; } 
+.rating-30 { background-position: -24px 0; }
+.rating-20 { background-position: -36px 0; }
+.rating-10 { background-position: -48px 0; }
+.rating-0 { background-position: -60px 0; }
+
+.rating-1  { background-position: -48px -16px; }
+.rating-11 { background-position: -36px -16px; }
+.rating-21 { background-position: -24px -16px; }
+.rating-31 { background-position: -12px -16px; }
+.rating-41 { background-position: 0 -16px; }
+
+.rating-2  { background-position: -48px -16px; }
+.rating-12 { background-position: -36px -16px; }
+.rating-22 { background-position: -24px -16px; }
+.rating-32 { background-position: -12px -16px; }
+.rating-42 { background-position: 0 -16px; }
+
+.rating-3  { background-position: -48px -16px; }
+.rating-13 { background-position: -36px -16px; }
+.rating-23 { background-position: -24px -16px; }
+.rating-33 { background-position: -12px -16px; }
+.rating-43 { background-position: 0 -16px; }
+
+.rating-4  { background-position: -48px -16px; }
+.rating-14 { background-position: -36px -16px; }
+.rating-24 { background-position: -24px -16px; }
+.rating-34 { background-position: -12px -16px; }
+.rating-44 { background-position: 0 -16px; }
+
+.rating-5  { background-position: -48px -16px; }
+.rating-15 { background-position: -36px -16px; }
+.rating-25 { background-position: -24px -16px; }
+.rating-35 { background-position: -12px -16px; }
+.rating-45 { background-position: 0 -16px; }
+
+.rating-6  { background-position: -48px -16px; }
+.rating-16 { background-position: -36px -16px; }
+.rating-26 { background-position: -24px -16px; }
+.rating-36 { background-position: -12px -16px; }
+.rating-46 { background-position: 0 -16px; }
+
+.rating-7  { background-position: -48px -16px; }
+.rating-17 { background-position: -36px -16px; }
+.rating-27 { background-position: -24px -16px; }
+.rating-37 { background-position: -12px -16px; }
+.rating-47 { background-position: 0 -16px; }
+
+.rating-8  { background-position: -48px -16px; }
+.rating-18 { background-position: -36px -16px; }
+.rating-28 { background-position: -24px -16px; }
+.rating-38 { background-position: -12px -16px; }
+.rating-48 { background-position: 0 -16px; }
+
+.rating-9  { background-position: -48px -16px; }
+.rating-19 { background-position: -36px -16px; }
+.rating-29 { background-position: -24px -16px; }
+.rating-39 { background-position: -12px -16px; }
+.rating-49 { background-position: 0 -16px; }

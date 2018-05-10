@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>Wongnok</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/default.css">    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+        <div class="container">
+            <img src="images/cats.png" alt="logo" style="height:30px;">
+            <div class="lead">onknok</div>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link lead" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lead disabled">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lead" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 class="display-3">Search</h1>
+        <form id="mainform" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label for="">Search</label>
+                <input type="text" name="keyword" id="keyword" class="form-control" placeholder="Keyword ex. Cafe, Seafood" aria-describedby="helpId" required>
+                <div class="invalid-feedback">
+                    Please input keyword
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">Category</label>
+                <select class="form-control" name="type" id="type">
+                    <option value="resturant">Resturant</option>
+                    <option value="doctor">Doctor</option>
+                    <option value="beauty_salon">Beauty Salon</option>
+                    <option value="gas_station">Gas Station</option>
+                    <option value="atm">ATM</option>
+                </select>
+            </div>
+            <div class="form-group">
+                    <label for="">Distance</label>
+                    <select class="form-control" name="radius" id="radius">
+                        <option value="500">500 m</option>
+                        <option value="1000">1 km</option>
+                        <option value="5000">5 km</option>
+                    </select>
+                </div>
+            <a name="" id="search" class="btn btn-primary" href="#" role="button" type="submit">Search</a>
+            
+            <p></p>
+                    
+                <div class="row" id="searchresult"></div>
+                      
+        </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"></script>
+    <script src="js/placesearch.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/validate.js"></script>
+</body>
+
+</html>
